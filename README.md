@@ -1,12 +1,12 @@
-# Nuxt.js Starter Pack with Pinia
+# Nuxt.js Starter Pack with Pinia 🔥
 
 This Starter Pack project is designed to help you quickly get started with Nuxt.js using Pinia for state management, TypeScript for static typing, and services for API calls with helpers.
 
-## Prerequisites
+## Prerequisites 🛠️
 
 Make sure you have Node.js and npm installed on your machine.
 
-## Installation
+## Installation ⚙️
 
 1. Clone this repository:
 
@@ -36,11 +36,11 @@ Make sure you have Node.js and npm installed on your machine.
    bun install
    ```
 
-## Configuration
+## Configuration 🔧
 
 No additional configuration is required. The project comes pre-configured with Nuxt.js, Pinia, TypeScript, and services for API calls.
 
-## Usage
+## Usage 🧪
 
 - Start the development server:
 
@@ -60,41 +60,41 @@ No additional configuration is required. The project comes pre-configured with N
 
 - Access your application in your browser at `http://localhost:3000`.
 
-## Production
+## Production 🚀
 
     Build the application for production:
 
-        ```bash
-        # npm
-        npm run build
+    ```bash
+    # npm
+    npm run build
 
-        # pnpm
-        pnpm run build
+    # pnpm
+    pnpm run build
 
-        # yarn
-        yarn build
+    # yarn
+    yarn build
 
-        # bun
-        bun run build
-        ```
+    # bun
+    bun run build
+    ```
 
     Locally preview production build:
 
-        ```bash
-        # npm
-        npm run preview
+    ```bash
+    # npm
+    npm run preview
 
-        # pnpm
-        pnpm run preview
+    # pnpm
+    pnpm run preview
 
-        # yarn
-        yarn preview
+    # yarn
+    yarn preview
 
-        # bun
-        bun run preview
-        ```
+    # bun
+    bun run preview
+    ```
 
-## Project Structure
+## Project Structure 📁
 
 - **`assets/`**: Contains static assets like images or CSS files.
 - **`components/`**: Includes reusable Vue.js components.
@@ -106,10 +106,10 @@ No additional configuration is required. The project comes pre-configured with N
 - **`server/`**: Contains files for API calls.
 - **`services/`**: Contains application services, including the fetch service.
 
-## Contribution
+## Contribution 🤝
 
 Contributions are welcome! If you'd like to improve this Starter Pack or fix any issues, feel free to submit a pull request.
 
-## License
+## License 📄
 
 This project is licensed under the [MIT License](LICENSE).
