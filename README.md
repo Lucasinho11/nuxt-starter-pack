@@ -23,6 +23,9 @@ Make sure you have Node.js and npm installed on your machine.
 3. Install dependencies:
 
    ```bash
+    # npm
+   npm install
+
    # pnpm
    pnpm install
 
