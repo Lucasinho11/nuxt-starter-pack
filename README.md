@@ -1,75 +1,112 @@
-# Nuxt 3 Minimal Starter
+# Nuxt.js Starter Pack with Pinia
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This Starter Pack project is designed to help you quickly get started with Nuxt.js using Pinia for state management, TypeScript for static typing, and services for API calls with helpers.
 
-## Setup
+## Prerequisites
 
-Make sure to install the dependencies:
+Make sure you have Node.js and npm installed on your machine.
 
-```bash
-# npm
-npm install
+## Installation
 
-# pnpm
-pnpm install
+1. Clone this repository:
 
-# yarn
-yarn install
+   ```bash
+   git clone <REPO_URL>
+   ```
 
-# bun
-bun install
-```
+2. Navigate to the project directory:
 
-## Development Server
+   ```bash
+   cd project-directory
+   ```
 
-Start the development server on `http://localhost:3000`:
+3. Install dependencies:
 
-```bash
-# npm
-npm run dev
+   ```bash
+   # pnpm
+   pnpm install
 
-# pnpm
-pnpm run dev
+   # yarn
+   yarn install
 
-# yarn
-yarn dev
+   # bun
+   bun install
+   ```
 
-# bun
-bun run dev
-```
+## Configuration
+
+No additional configuration is required. The project comes pre-configured with Nuxt.js, Pinia, TypeScript, and services for API calls.
+
+## Usage
+
+- Start the development server:
+
+  ```bash
+  # npm
+  npm run dev
+
+  # pnpm
+  pnpm run dev
+
+  # yarn
+  yarn dev
+
+  # bun
+  bun run dev
+  ```
+
+- Access your application in your browser at `http://localhost:3000`.
 
 ## Production
 
-Build the application for production:
+    Build the application for production:
 
-```bash
-# npm
-npm run build
+        ```bash
+        # npm
+        npm run build
 
-# pnpm
-pnpm run build
+        # pnpm
+        pnpm run build
 
-# yarn
-yarn build
+        # yarn
+        yarn build
 
-# bun
-bun run build
-```
+        # bun
+        bun run build
+        ```
 
-Locally preview production build:
+    Locally preview production build:
 
-```bash
-# npm
-npm run preview
+        ```bash
+        # npm
+        npm run preview
 
-# pnpm
-pnpm run preview
+        # pnpm
+        pnpm run preview
 
-# yarn
-yarn preview
+        # yarn
+        yarn preview
 
-# bun
-bun run preview
-```
+        # bun
+        bun run preview
+        ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+
+- **`assets/`**: Contains static assets like images or CSS files.
+- **`components/`**: Includes reusable Vue.js components.
+- **`layouts/`**: Contains application layouts.
+- **`pages/`**: Contains Nuxt.js application routes.
+- **`plugins/`**: Includes application plugins.
+- **`interfaces/`**: Contains TypeScript interfaces used in the project.
+- **`stores/`**: Includes application state modules managed by Pinia.
+- **`server/`**: Contains files for API calls.
+- **`services/`**: Contains application services, including the fetch service.
+
+## Contribution
+
+Contributions are welcome! If you'd like to improve this Starter Pack or fix any issues, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
