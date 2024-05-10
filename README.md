@@ -62,37 +62,37 @@ No additional configuration is required. The project comes pre-configured with N
 
 ## Production 🚀
 
-    Build the application for production:
+- Build the application for production:
 
-    ```bash
-    # npm
-    npm run build
+  ```bash
+  # npm
+  npm run build
 
-    # pnpm
-    pnpm run build
+  # pnpm
+  pnpm run build
 
-    # yarn
-    yarn build
+  # yarn
+  yarn build
 
-    # bun
-    bun run build
-    ```
+  # bun
+  bun run build
+  ```
 
-    Locally preview production build:
+- Locally preview production build:
 
-    ```bash
-    # npm
-    npm run preview
+  ```bash
+  # npm
+  npm run preview
 
-    # pnpm
-    pnpm run preview
+  # pnpm
+  pnpm run preview
 
-    # yarn
-    yarn preview
+  # yarn
+  yarn preview
 
-    # bun
-    bun run preview
-    ```
+  # bun
+  bun run preview
+  ```
 
 ## Project Structure 📁
 
